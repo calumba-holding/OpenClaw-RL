@@ -210,7 +210,12 @@ See [`./openclaw-test/README.md`](./openclaw-test/README.md) for setup and algor
 
 Install OpenClaw from the version bundled in this repository (we will update it regularly):
 
-Then configure OpenClaw to route requests to your RL server. Open your `openclaw.json` (or the equivalent settings file) and add a provider entry under `"models"` → `"providers"`:
+<details>
+<summary><b>Then configure OpenClaw to route requests to your RL server. </b></summary>
+
+<br>
+
+Open your `openclaw.json` (or the equivalent settings file) and add a provider entry under `"models"` → `"providers"`:
 
 ```json
 {
@@ -245,6 +250,9 @@ Then configure OpenClaw to route requests to your RL server. Open your `openclaw
 Replace `<HOST_IP>` with the IP address of your RL server machine. The `apiKey` should match the `SGLANG_API_KEY` you set when starting the server.
 
 That's it — start chatting with your OpenClaw agent. The RL server will automatically collect conversation trajectories, compute rewards, and train the model. Your agent gets better the more you use it.
+
+</details>
+
 
 
 #### Configurations
