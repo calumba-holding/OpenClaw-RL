@@ -104,7 +104,7 @@ Our long-term goal is to **advance personalized, practically useful agents with 
 ✅ **Release Track 1:** Fully async OpenClaw-RL framework with Binary RL + OPD  
 ✅ Best recipe discovery via demonstration experiments  
 ⬜ Support Lora Training & low-precision training/inference  
-⬜ Deploy training to [Tinker](https://thinkingmachines.ai/tinker/)  
+⬜ Deploy training on [Tinker](https://thinkingmachines.ai/tinker/)  
 ⬜ Beyond the policy: extend learning to skills and memory  
 
 #### Track 2 — General Agents Optimization (Scalable Infra)
